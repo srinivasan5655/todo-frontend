@@ -1,0 +1,131 @@
+.form {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://images.unsplash.com/photo-1518976024611-28bf4b48222e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80");
+  opacity: 1;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.login-form {
+  background-color: aqua;
+  height: 400px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.login-form label {
+  width: 100%;
+  margin-left: 50px;
+  font-size: large;
+  font-weight: 700;
+  text-align: left;
+}
+
+.input-login {
+  width: 250px;
+  height: 35px;
+  margin: 10px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.login-btn {
+  border-radius: 50px;
+  background-color: grey;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  padding: 8px 65px;
+  color: aliceblue;
+}
+
+.login-btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.google-btn {
+  border-radius: 50px;
+  margin: 10px;
+  padding: 8px 65px;
+  color: white;
+  background-color: #43a1ff;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.google-btn:hover {
+  background-color: #0f85fa;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.google-btn span {
+  position: relative;
+  top: -5px;
+  right: -10px;
+}
+
+.google {
+  padding: 0;
+
+  height: 25px;
+  width: 25px;
+  position: relative;
+  /* top: 5px; */
+}
+
+.signup-link {
+  font-size: 18px;
+  color: black;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
+
+.instruction {
+  margin-top: -8px;
+  margin-left: -40px;
+  font-size: 13px;
+  color: black;
+}
+
+.input-error {
+  display: block;
+  background-color: antiquewhite;
+  width: 250px;
+  height: 35px;
+  margin: 10px;
+  outline: none;
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.error-message {
+  position: relative;
+  top: -40px;
+  padding: 10px;
+  background-color: antiquewhite;
+  color: rgb(184, 73, 73);
+  border: 1px solid red;
+  border-radius: 5px;
+}
